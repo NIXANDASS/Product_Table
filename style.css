@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(234, 178, 138);
+    font-family:sans-serif;
+    font-weight:600;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width:80%;
+}
+th{
+    background-color: rgb(229, 142, 36);
+    color:white;
+    text-align:center;
+    font-weight: 800;
+}
+td{
+    border-style: solid 10px #ff0404;
+    padding: 5px;
+    
+}
+td:hover{
+    transition-duration: 0.5s;
+    color: bisque;
+}
+tr:nth-child(even){
+color: orangered;
+}
+caption{
+    font-weight: bolder;
+    letter-spacing:3px;
+    margin-top:50px;
+}
